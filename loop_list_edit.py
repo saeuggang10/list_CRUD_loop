@@ -9,7 +9,9 @@ age=[]
 area=[]
 
 while 1:
-    print(name, age, area)
+    print('='*15)
+    print('데이터 : ', name, age, area)
+    print('='*15)
     print('1. 데이터 생성하기 \n2. 데이터 수정하기 \n3. 데이터 삭제하기 \n4. 데이터 검색하기 \n※ 검색 종료시 q를 입력해 주세요')
     print('='*15)
     ty=input('아래 중 하나를 선택해 주세요(번호 입력) : ')
